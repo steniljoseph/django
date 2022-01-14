@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+
+
+}
+
+
+.navbar{
+    width: 100%;
+    height: 75px;
+    background-color: #003311;
+    display: inline-flex;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    font-size: 40px;
+    font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+    color: #FFF;
+    float: left;
+    margin: 5px;
+    font-weight: 900;
+    text-indent: 100%;
+    width: 70px;
+    height: 36px;
+}
+
+.description{
+    font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+    color: #44B78B;
+    width: 18%;
+    float: left;
+    display: flex;
+    padding-top: 15px;
+    
+}
+
+.menu{
+    margin-left: 23%;
+    width: 200px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.navul{
+    
+    list-style: none;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.navli{
+    margin-left: 10px;
+    margin-top: 27px;
+    font-size: 12px;
+}
+
+.navatag{
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+    font-weight: bold;
+}
+
+.navatag:hover{
+    color:green
+}
+
+.centerpage{
+    font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+.centerh1{
+    display: flex;
+    justify-content: center;
+    font-weight: 50;
+
+
+}
+.btndjango{
+    color: white;
+    background-color: #3a9e73;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 14px;  
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px; 
+}
+
+.container{
+    width: 100%;
+    display: flex;
+
+}
+
+.meetdjango{
+    color: black;
+    padding-left: 10px;
+    padding-top: 50px;
+    width: 100%;
+    
+}
+
+.meethead{
+    font-size: 200%;
+    padding-left: 50px;
+}
+
+.meetdes{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+
+
+}
+
+.learnmore{
+    background-color: white;
+    color: grey;
+    padding: 20px 120px ;
+    font-size: 18px;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: center;
+    border: 1px solid #dfd9d9;
+    border-radius: 5px;
+
+}
+.learnmore:hover{
+    border: 1px solid #44B78B;
+    color: #44B78B;
+
+}
+
+.supportdjango{
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    width: 100%;
+    background-color: #c9f0dd;
+
+}
+
+.btndwnld{
+    color: white;
+    background-color: #3a9e73;
+    padding: 15px ;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 14px; 
+    display: inline-block; 
+    margin: 0 auto;
+    margin-top: 50px; 
+    width: 100%;
+}
+
+.docunderdown{
+    padding-top: 2px;
+    padding-left: 130px;
+    color: #44B78B;
+}
+
+
+.features{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.featurehead{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.sprtdj{
+    font-weight: lighter;
+}
+.heartmain{
+    display: flex;
+    justify-content: space-around;
+}
+
+.donatepara{
+    color: #44B78B;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+
+.djsecu{
+    color: #44B78B;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.djsecudes{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.djauth{
+    font-weight: lighter;
+    font-size: 15px;
+    color: gray;
+
+}
+
+.morenews{
+    color: #44B78B;
+}
+
+.symbol{
+    display: flex;
+
+}
+
+.symnote{
+    color: #44B78B;
+    width: 17px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+
+.usd{
+    display: flex;
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 100%;
+}
+.usingdj{
+    width: 100%;
+}
+
+.using{
+    color: #44B78B; 
+}
+.mail{
+    width: 92%;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.far .fa-envelope{
+    color: black;
+}
+.icon-mail{
+    position: absolute;
+    z-index: 0;
+    left: 398px;
+    margin-top: 8px;
+    
+}
+
+.icon-mail:hover{
+    color: #44B78B;
+    cursor: pointer;
+}
+
+.icon-mail2{
+    position: absolute;
+    z-index: 1;
+    left: 805px;
+    margin-top: 8px;
+    
+}
+.icon-mail2:hover{
+    color: #44B78B;
+    cursor: pointer;
+}
+
+
+footer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(28, 177, 102, 0.836);
+}
+
+.footer1{
+    height: 350px;
+    width: 25%;
+    color: cornsilk;
+
+}
+
+
+.dlcls{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.dtcls{
+    font-size: 17px;
+    font-weight: bolder;
+}
